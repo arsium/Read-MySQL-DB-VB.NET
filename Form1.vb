@@ -8,7 +8,7 @@ Public Class Form1
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
 
         Dim server As String = "server=192.168.0.16;userid=arsium;password=123456;database=testdb;"
-        ''So here is the url to your db , default userid is "root" and password is empt like : "server=192.168.0.16;userid=root;password=;database=tuto;"
+        ''So here is the url to your db , default userid is "root" and password is empty like : "server=192.168.0.16;userid=root;password=;database=tuto;"
         ''192.168.0.16 is the local ip of my other computer
         Using dataDBConnection = New MySqlConnection(server)
 
